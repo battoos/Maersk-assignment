@@ -1,0 +1,119 @@
+body {
+    font-size: 16px;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    padding: 15px;
+    background-color: #EFEFEF;
+}
+
+.first {
+    float: left;
+    width: 80%;
+}
+
+.second {
+    float: left;
+    width: 20%;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+}
+
+.card-option {
+    /* max-width: 200px; */
+    /* display: inline-block; */
+    /* vertical-align: top; */
+    text-align: center;
+}
+
+.cards .card {
+    /* padding: 50px 90px;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    /* font-size: 72px;
+    float: left;
+    color: #ffffff;
+    max-width: 15rem;
+    max-height: 13rem; */
+    /* vertical-align: middle; 
+    margin: auto; */
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 50px 90px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-1,
+.card-8 {
+    background-color: #6F98A8;
+}
+
+
+/* .card-1 ::before {
+    content: "";
+} */
+
+
+/* .card-1::after {
+    content: "1";
+}
+
+.card-8::after {
+    content: "1";
+} */
+
+.card-2,
+.card-4 {
+    background-color: #2B8EAD;
+}
+
+.card-3,
+.card-5,
+.card-9 {
+    background-color: #2F454E;
+}
+
+.card-6,
+.card-7 {
+    background-color: #BFBFBF;
+}
+
+.action-btn {
+    background-color: #72C3DC;
+    border: 0;
+    border-bottom: 4px solid #2B8EAD;
+    border-radius: 5px;
+    min-width: 7rem;
+    width: 12rem;
+    padding: 12px 0;
+    margin: 10px;
+    font-size: inherit;
+    color: white;
+}
+
+.bottom {
+    background-color: #EFEFEF;
+    text-align: center;
+    min-height: 5rem;
+    color: #000000;
+}
+
+
+/* 
+#2B8EAD : .card-2
+#333333 
+#6F98A8 : .card-1
+#FFFFFF 
+#BFBFBF
+#EFEFEF 
+#2F454E : .card-3
+#72C3DC : button-clr */
