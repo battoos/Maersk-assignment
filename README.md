@@ -12,4 +12,6 @@ https://battoos.github.io/Maersk-assignment/
 1. Download or clone the repo to your local machine.
 2. Open "index.html" with your preferred browser.
 
-Thanks!
+Thank you 
+
+Cheers!
