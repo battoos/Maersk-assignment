@@ -75,6 +75,10 @@ body {
     color: white;
 }
 
+.action-btn:active {
+    transform: translateY(2px);
+}
+
 .top {
     background-color: #FFFFFF;
     text-align: center;
