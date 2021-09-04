@@ -1,6 +1,7 @@
 body {
     font-size: 16px;
     font-family: Helvetica, Arial, sans-serif;
+    /* background-color: #EFEFEF; */
 }
 
 .clear {
@@ -8,17 +9,17 @@ body {
 }
 
 .container {
-    padding: 15px;
+    /* padding: 15px; */
     background-color: #EFEFEF;
 }
 
-.first {
+.col-cards {
     float: left;
     width: 80%;
 }
 
-.second {
-    float: left;
+.col-options {
+    float: right;
     width: 20%;
 }
 
@@ -48,7 +49,7 @@ body {
     margin: auto; */
     /* background-color: rgba(255, 255, 255, 0.8); */
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    padding: 50px 90px;
+    /* padding: 50px 90px; */
     /* font-size: 30px; */
     font-size: 10vw;
     text-align: center;
@@ -59,20 +60,6 @@ body {
 .card-8 {
     background-color: #6F98A8;
 }
-
-
-/* .card-1 ::before {
-    content: "";
-} */
-
-
-/* .card-1::after {
-    content: "1";
-}
-
-.card-8::after {
-    content: "1";
-} */
 
 .card-2,
 .card-4 {
@@ -90,17 +77,40 @@ body {
     background-color: #BFBFBF;
 }
 
+
+/* .card-1 ::before {
+    content: "";
+} */
+
+
+/* .card-1::after {
+    content: "1";
+}
+
+.card-8::after {
+    content: "1";
+} */
+
 .action-btn {
     background-color: #72C3DC;
     border: 0;
     border-bottom: 4px solid #2B8EAD;
     border-radius: 5px;
-    min-width: 7rem;
-    width: 12rem;
+    /* min-width: 7rem; */
+    width: 80%;
     padding: 12px 0;
     margin: 10px;
     font-size: inherit;
     color: white;
+}
+
+.top {
+    background-color: #FFFFFF;
+    text-align: center;
+    min-height: 2rem;
+    border-bottom: 5px solid #BFBFBF;
+    color: #000000;
+    vertical-align: middle;
 }
 
 .bottom {
@@ -108,6 +118,76 @@ body {
     text-align: center;
     min-height: 5rem;
     color: #000000;
+}
+
+@media only screen and (max-width: 376px) {
+    body {
+        background-color: #ffffff;
+        margin: 0 0 0 0;
+    }
+    .container {
+        /* padding: 15px; */
+        background-color: #ffffff;
+    }
+    .top {
+        background-color: #000000;
+        text-align: center;
+        min-height: 3rem;
+        padding: 15px 0 0 0;
+        border-bottom: 0;
+        color: #ffffff;
+    }
+    .bottom {
+        background-color: #ffffff;
+        text-align: center;
+        min-height: 5rem;
+        color: #000000;
+    }
+    .action-btn {
+        border-bottom: 4px solid #2B8EAD;
+        border-radius: 5px;
+        /* min-width: 5rem; */
+        width: 6rem;
+        padding: 12px 0;
+        margin: 10px 0;
+    }
+    .cards {
+        grid-template-columns: auto;
+        padding: 0 15px;
+    }
+    .cards .card {
+        padding: 10px 0;
+        font-size: 5vw;
+        text-align: center;
+        color: #000000;
+        background-color: #EFEFED;
+        margin-bottom: 5px;
+    }
+    .card-1,
+    .card-8 {
+        border-left: 10px solid #6F98A8;
+    }
+    .card-2,
+    .card-4 {
+        border-left: 10px solid #2B8EAD;
+    }
+    .card-3,
+    .card-5,
+    .card-9 {
+        border-left: 10px solid #2F454E;
+    }
+    .card-6,
+    .card-7 {
+        border-left: 10px solid #BFBFBF;
+    }
+    .col-cards {
+        float: left;
+        width: 100%;
+    }
+    .col-options {
+        float: right;
+        width: 100%;
+    }
 }
 
 

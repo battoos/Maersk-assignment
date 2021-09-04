@@ -16,8 +16,18 @@
 </head>
 
 <body>
+    <div class="top">
+        <p class="">Shuffle and Sort </p>
+
+    </div>
     <div class="container">
-        <div class="first">
+        <div class="col-options">
+            <div class="card-option">
+                <button class="action-btn" onclick="shuffle()">Shuffle</button>
+                <button class="action-btn" onclick="sort()">Sort</button>
+            </div>
+        </div>
+        <div class="col-cards">
             <div id="cards" class="cards">
                 <div class="card card-1">1</div>
                 <div class="card card-2">2</div>
@@ -31,12 +41,7 @@
 
             </div>
         </div>
-        <div class="second">
-            <div class="card-option">
-                <button class="action-btn" onclick="shuffle()">Shuffle</button>
-                <button class="action-btn" onclick="sort()">Sort</button>
-            </div>
-        </div>
+
         <div class="clear"></div>
 
         <div class="bottom">
