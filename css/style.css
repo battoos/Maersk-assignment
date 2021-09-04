@@ -1,7 +1,7 @@
 body {
     font-size: 16px;
     font-family: Helvetica, Arial, sans-serif;
-    /* background-color: #EFEFEF; */
+    /* tried to find the exact font but due to time limit wasn't able to */
 }
 
 .clear {
@@ -9,19 +9,21 @@ body {
 }
 
 .container {
-    /* padding: 15px; */
     background-color: #EFEFEF;
 }
 
 .col-cards {
     float: left;
-    width: 80%;
+    width: 75%;
 }
 
 .col-options {
     float: right;
-    width: 20%;
+    width: 25%;
 }
+
+
+/* used css grid as per assignment demand */
 
 .cards {
     display: grid;
@@ -30,27 +32,11 @@ body {
 }
 
 .card-option {
-    /* max-width: 200px; */
-    /* display: inline-block; */
-    /* vertical-align: top; */
     text-align: center;
 }
 
 .cards .card {
-    /* padding: 50px 90px;
-    font-family: sans-serif;
-    /* font-weight: bold; */
-    /* font-size: 72px;
-    float: left;
-    color: #ffffff;
-    max-width: 15rem;
-    max-height: 13rem; */
-    /* vertical-align: middle; 
-    margin: auto; */
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    /* padding: 50px 90px; */
-    /* font-size: 30px; */
+    padding: 32px 0px;
     font-size: 10vw;
     text-align: center;
     color: #ffffff;
@@ -77,26 +63,11 @@ body {
     background-color: #BFBFBF;
 }
 
-
-/* .card-1 ::before {
-    content: "";
-} */
-
-
-/* .card-1::after {
-    content: "1";
-}
-
-.card-8::after {
-    content: "1";
-} */
-
 .action-btn {
     background-color: #72C3DC;
     border: 0;
     border-bottom: 4px solid #2B8EAD;
     border-radius: 5px;
-    /* min-width: 7rem; */
     width: 80%;
     padding: 12px 0;
     margin: 10px;
@@ -126,15 +97,16 @@ body {
         margin: 0 0 0 0;
     }
     .container {
-        /* padding: 15px; */
         background-color: #ffffff;
     }
     .top {
-        background-color: #000000;
+        background-color: #333333;
         text-align: center;
         min-height: 3rem;
-        padding: 15px 0 0 0;
+        height: 20px;
+        padding: 1px 0;
         border-bottom: 0;
+        font-size: 20px;
         color: #ffffff;
     }
     .bottom {
@@ -146,7 +118,6 @@ body {
     .action-btn {
         border-bottom: 4px solid #2B8EAD;
         border-radius: 5px;
-        /* min-width: 5rem; */
         width: 6rem;
         padding: 12px 0;
         margin: 10px 0;
@@ -189,14 +160,3 @@ body {
         width: 100%;
     }
 }
-
-
-/* 
-#2B8EAD : .card-2
-#333333 
-#6F98A8 : .card-1
-#FFFFFF 
-#BFBFBF
-#EFEFEF 
-#2F454E : .card-3
-#72C3DC : button-clr */
