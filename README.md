@@ -9,7 +9,7 @@ Maersk UI Coding challenge : Shuffle and Sort
 https://battoos.github.io/Maersk-assignment/
 
 ## How to run:
-Download or clone the repo to your local machine.
-Open "index.html" with your preferred browser.
+1. Download or clone the repo to your local machine.
+2. Open "index.html" with your preferred browser.
 
 Thanks!
