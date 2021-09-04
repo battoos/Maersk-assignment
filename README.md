@@ -1,2 +1,2 @@
 # Maersk-assignment
-Maersk UI Coding challenge
+Maersk UI Coding challenge : Shuffle and Sort
